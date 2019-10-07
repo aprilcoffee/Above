@@ -7,7 +7,8 @@ let system;
 
 let camTarget;
 function preload(){
-	myFont = loadFont ('assets/firaMono.ttf');
+	myFont = loadFont ('assets/inter.ttf');
+	
 }
 function setup() {
 	const canvasElt = createCanvas(400,600,WEBGL).elt;
